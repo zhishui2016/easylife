@@ -18,6 +18,7 @@
 
 <#if currentNav??>
 	<script>
+        /*菜单定位*/
 		$("#${currentNav}").addClass("active");
 	</script>
 </#if>
